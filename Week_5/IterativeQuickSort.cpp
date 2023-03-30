@@ -12,10 +12,7 @@ void swap(int* a, int* b)
     *b = temp;
 }
 
-/* This function takes the last element as pivot, 
-   places the pivot element at its correct position 
-   in the sorted array, and places all smaller (smaller than pivot) 
-   to the left of pivot and all greater elements to the right of pivot */
+
 int partition(int array[], int low, int high)
 {
     // pivot element - the last element in the array
