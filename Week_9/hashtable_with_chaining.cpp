@@ -69,12 +69,6 @@ struct HashTable{
         else{
             password[hash].search(user_name);            
         }
-	
-	
-	
-	
-	
-	
     }
 };
 
