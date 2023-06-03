@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
         {0, 2, 0, 3, 0, 5},
         {0, 1, 3, 0, 5, 0},
         {0, 10, 0, 5, 0, 4},
-        {1, 0, 5, 0, 4, 5}
+        {1, 0, 5, 0, 4, 0}
     };
     // call prims algorithm from source node 0 to find minimum spanning tree
     prims_algorithm(adj_matrix, 0);
